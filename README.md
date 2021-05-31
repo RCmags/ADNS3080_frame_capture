@@ -8,4 +8,4 @@ Both of these files work in conjunction to generate an image. To this end, both 
 
 A properly focused camera should generate these kinds of images:
 
-<img src = "example_pics/car.png" width = "30%" height = "30%"> <img src = "example_pics/hand.png" width = "30%" height = "30%"> <img src = "example_pics/ruler.png" width = "30%" height = "30%">
+<img src = "images/car.png" width = "30%" height = "30%"> <img src = "images/hand.png" width = "30%" height = "30%"> <img src = "images/ruler.png" width = "30%" height = "30%">
