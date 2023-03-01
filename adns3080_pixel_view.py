@@ -9,8 +9,12 @@ NUM_PIXEL   = 30
 
 # Serial communication [Must match arduino sketch]
 BAUD_RATE   = 57600
-SERIAL_PORT = 'COM5'
 BEGIN_CHAR  = 'A'
+
+# NOTE: The serial port changes with operating system
+#		On windows, use 'COM3' or similar
+# 		On Linux, use '/dev/ttyACM0' or similar
+SERIAL_PORT = '/dev/ttyACM0'
 
 # Depedent constants
 PIXEL_SIZE  = WINDOW_SIZE/NUM_PIXEL
