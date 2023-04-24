@@ -1,4 +1,4 @@
-# ADNS3080_frame_capture
+# ADNS3080 - frame Capture
 This repo contains a __python script__ and an __arduino sketch__ to render the output of an ADNS3080 mouse sensor as a grayscale image. This is ideal for focusing the lens as its obvious when an image is blurry. Doing so greatly improves the SQUAL value and subsequent motion detection. 
 
 Both files work in conjunction and must have the same __baud rate__ and __begin character__. This last value controls when the python script receives information from the arduino. 
