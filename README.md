@@ -3,7 +3,7 @@ This repo contains a __python script__ and an __arduino sketch__ to render the o
 
 Both files work in conjunction and must have the same __baud rate__ and __begin character__. This last value controls when the python script receives information from the arduino. 
 
-A properly focused camera should generate these kinds of images:
+A properly focused camera should produce these images:
 
 <img src = "images/car.png" width = "30%" height = "30%"> <img src = "images/hand.png" width = "30%" height = "30%"> <img src = "images/ruler.png" width = "30%" height = "30%">
 
