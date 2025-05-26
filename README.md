@@ -36,4 +36,4 @@ If using Processing:
 
 Credit goes to: 
 - [Lauszus](https://github.com/Lauszus/ADNS3080) for the inspiration. The python script is largely based on his work.
-- [EllieOwen]](https://github.com/EllieOwen) for the original processing sketch. 
+- [EllieOwen](https://github.com/EllieOwen) for the original version of the processing sketch. 
