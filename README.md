@@ -29,8 +29,8 @@ If using Python:
 - The script requires the [pyserial](https://pythonhosted.org/pyserial/pyserial.html#overview) library. 
 - The script requires the [tkinter](https://www.pythonguis.com/installation/install-tkinter-linux/) library.
 
-If using processing:
-- [The Processing IDE software](https://processing.org/download)
+If using Processing:
+- The Processing IDE software: [Download](https://processing.org/download)
 
 ## References
 
