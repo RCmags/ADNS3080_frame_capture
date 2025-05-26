@@ -10,7 +10,7 @@ A properly focused camera should produce these images:
 ## How to use
 Upload the arduino program to your board of choice and connect the board to the ADN3080. Afterwords, run _either_ the python script _or_ the processing sketch. 
 
-- Use the processing software directly to run the sketch.   
+- Use the processing IDE to run the sketch.
 
 - If using linux, the python script can be executed by opening a terminal in the location of the python script and running the command: 
 
@@ -22,10 +22,15 @@ __NOTE__: While the Arduino program was written for an Arduino Uno/Nano, it shou
 
 ## Requirements
 
+- The Arduino sketch makes use of the [ADNS3080 library](https://github.com/RCmags/ADNS3080). 
+
+If using Python:
 - The python script uses __python 3__ 
 - The script requires the [pyserial](https://pythonhosted.org/pyserial/pyserial.html#overview) library. 
 - The script requires the [tkinter](https://www.pythonguis.com/installation/install-tkinter-linux/) library.
-- The Arduino sketch makes use of the [ADNS3080 library](https://github.com/RCmags/ADNS3080). 
+
+If using processing:
+- [The Processing IDE software](https://processing.org/download)
 
 ## References
 
