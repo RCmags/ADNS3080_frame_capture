@@ -26,12 +26,12 @@ void setup() {
 
 void loop() {
   // Get frame data
-  uint8_t frame[ADNS3080_PIXELS_X][ADNS3080_PIXELS_Y];
+  uint8_t frame[ADNS3080_PIXELS][ADNS3080_PIXELS];
   sensor.frameCapture( frame );
 
   // Scan grid and send pixel color
-  for( int y = 0; y < ADNS3080_PIXELS_Y; y += 1 ) {
-    for( int x = 0; x < ADNS3080_PIXELS_X; x += 1 ) {
+  for( int y = 0; y < ADNS3080_PIXELS; y += 1 ) {
+    for( int x = 0; x < ADNS3080_PIXELS; x += 1 ) {
       Serial.println( frame[x][y] );
     }
   }
